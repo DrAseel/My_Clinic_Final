@@ -1,7 +1,11 @@
 import os
+import flet as ft  # تأكد أن هذا السطر موجود ولم يُحذف
+
 os.environ["FLET_SERVER_PORT"] = "8501"
 os.environ["FLET_SERVER_IP"] = "0.0.0.0"
-import sqlite3
+
+def main(page: ft.Page):
+    import sqlite3
 import pandas as pd
 import os
 
