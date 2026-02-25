@@ -1,4 +1,6 @@
-import flet as ft
+import os
+os.environ["FLET_SERVER_PORT"] = "8501"
+os.environ["FLET_SERVER_IP"] = "0.0.0.0"
 import sqlite3
 import pandas as pd
 import os
