@@ -145,4 +145,4 @@ def main(page: ft.Page):
     load_data()
     update_stats()
 
-ft.app(target=main, view=None)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
